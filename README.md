@@ -18,23 +18,26 @@ conda install jupyter_contrib_nbextensions -c conda-forge
 
 earthengine authenticate
 
-## Run jupyter notebook or jupyter lab
+## Then run jupyter notebook or jupyter lab from the command prompt.
 
 jupyter notebook
 
-## Create a new notebook and save it if you want.
-## Run the following code in the notebook to test your install by pasting each block into a new cell and running the cell.
+## Using the menus in Jupyter Lab or Jupyter Notebook, create a new notebook and optionally save it.
+## Run the following code in the notebook to test your install by pasting each block into a new cell and then running the cell.
 ## If successful you should see metadata for a DEM dataset and an interactive map window.
 
-### First cell
+> ### First cell
 import ee
+
 import geemap
+
 ee.Initialize()
 
-### Second cell
+> ### Second cell
 print(ee.Image('USGS/SRTMGL1_003').getInfo())
 
-### Third cell
+> ### Third cell
 Map = geemap.Map(center=(40, -100), zoom=4)
+
 Map
 
