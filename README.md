@@ -1,8 +1,8 @@
 # GEODE-geepython-intro
 
-Provides a brief intro to using Google Earth Engine via the Python API. This assumes you have already installed Anaconda or have some other way to run Python and manage packages.
+Provides a brief intro to using Google Earth Engine via the Python API. This assumes you already have a GEE account and have already installed Anaconda or have some other way to run Python and manage packages on your local machine.
 
-## Run the following lines from a command prompt (either powershell, anaconda terminal, etc.). They create a new conda environment called geepy (you can call your new env. whatever you want). They then install geemap and associated packages. Just fyi, the gee python api and jupyter will be installed along with geemap.
+## Run the following commands from a command prompt (either powershell, anaconda terminal, etc.). They create a new conda environment called geepy (you can call your new env. whatever you want). They then install geemap and associated packages. Just fyi, the gee python api and jupyter will be installed along with geemap.
 
 conda create -n geepy
 
