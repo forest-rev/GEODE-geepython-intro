@@ -14,7 +14,7 @@ conda install geemap localtileserver -c conda-forge
 
 conda install jupyter_contrib_nbextensions -c conda-forge
 
-conda install altair
+conda install -c conda-forge altair
 
 ## The following line opens up a browser window. Select the account associated with GEE and paste the token back into the command prompt window.
 
