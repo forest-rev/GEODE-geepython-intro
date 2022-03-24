@@ -16,6 +16,10 @@ conda install jupyter_contrib_nbextensions -c conda-forge
 
 conda install -c conda-forge altair
 
+conda install mamba -c conda-forge
+
+mamba install xarray_leaflet -c conda-forge
+
 ## The following line opens up a browser window. Select the account associated with GEE and paste the token back into the command prompt window.
 
 earthengine authenticate
